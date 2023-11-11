@@ -1,5 +1,5 @@
 # Estacionamiento
-Proyecto realizado para la clase de Estructuras de Datos.
+Proyecto realizado para la clase de Estructuras de Datos 2023-2.
 
 ## Descripción del proyecto
 Simulación del funcionamiento de un estacionamiento en tiempo real.
