@@ -1,19 +1,29 @@
-Como simulación hay dos opciones:
-En tiempo real, donde cada segundo que pasa es una hora y los cambios se ven reflejados en la consola (ejecutando el archivo SimulaciónTiempoReal.java).
-En archivo de texto, donde se imprime el movimiento que ocurre en el estacionamiento durante un día completo, dividido por horas (ejecutando el archivo SimulaciónConFile.java).
-Cada vez que se ejecute, ya sea de una manera u otra, la simulación resultante va a
-ser totalmente aleatoria y por tanto, siempre diferente.
-*Nota: Creé la clase de lugar con la esperanza de también representar de una forma más gráfica los cambios que ocurren en el estacionamiento pero ya no me dió tiempo de completar esa parte.
 
-Integrantes de equipo:
 
-Díaz Reyes Lilith Jaquelin
-*Nota: cuando me enteré que el trabajo era en equipo ya lo había terminado, consulté con Jero y me dijo que por esta vez estaba bien.
+# Descripción del proyecto
+Simulación del funcionamiento de un estacionamiento en tiempo real.
 
-Número de cuenta: 320277571
+## Estructura del Proyecto
 
-Prueba de que se ejecuta:
-https://github.com/EstructurasDeDatos-7042-2023-2/tarea01-jackDiazz/blob/b4dc250f62943be808b1407abb49a5f0b7ae54cd/Captura1.png
-https://github.com/EstructurasDeDatos-7042-2023-2/tarea01-jackDiazz/blob/b4dc250f62943be808b1407abb49a5f0b7ae54cd/Captura2.png
-https://github.com/EstructurasDeDatos-7042-2023-2/tarea01-jackDiazz/blob/b4dc250f62943be808b1407abb49a5f0b7ae54cd/Captura3.png
-https://github.com/EstructurasDeDatos-7042-2023-2/tarea01-jackDiazz/blob/b4dc250f62943be808b1407abb49a5f0b7ae54cd/Captura4.png
+src/: Esta carpeta contiene los archivos fuente de Java.
+
+## Compilación y Ejecución
+
+Para compilar y ejecutar este proyecto, asegúrate de tener instalado java en tu sistema (preferentemente java 11 en adelante). Luego, sigue estos pasos:
+
+1. Abre una terminal y navega hasta la carpeta raíz del proyecto (`\estacionamiento-tarea\src\`).
+
+2. Compila el proyecto ejecutando el siguiente comando:
+
+```bash
+javac *.java
+```
+3. Hay dos posibles formas de ejecutar el proyecto:
+```bash
+java SimulaciónTiempoReal
+```
+Ejecutará la simulación en la terminal.
+```bash
+java SimulaciónConFile
+```
+Generará un archivo .txt en la carpeta \src del proyecto con la simulación.
