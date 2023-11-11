@@ -1,6 +1,6 @@
+# Estacionamiento
 
-
-# Descripción del proyecto
+## Descripción del proyecto
 Simulación del funcionamiento de un estacionamiento en tiempo real.
 
 ## Estructura del Proyecto
