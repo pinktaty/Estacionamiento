@@ -7,7 +7,7 @@ Real-time simulation of a parking lot operation.
 ## Project Structure
 src/: This folder contains the Java source files.
 
-## Compilación y Ejecución
+## Compilation and Execution
 To compile and execute this project, make sure you have Java installed on your system (preferably Java 11 or later). Then, follow these steps:
 
 1. Open a terminal and navigate to the root folder of the project (`\estacionamiento-tarea\src\`).
